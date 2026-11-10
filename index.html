@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Wypożyczalnia samochodów Gdynia, Gdańsk, lotnisko - Auto-Fest (podgląd)</title>
+<meta name="description" content="Auto-Fest: wynajem samochodów osobowych, dostawczych i busów w Gdyni, Gdańsku i na lotnisku im. Lecha Wałęsy. Całą dobę, 7 dni w tygodniu.">
+<meta name="theme-color" content="#0002B9">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="preload" as="image" href="img/hero-flota-m.webp" media="(max-width: 860px)">
+<link rel="preload" as="image" href="img/hero-flota.webp" media="(min-width: 861px)">
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<a class="skip" href="#flota">Przejdź do floty</a>
+
+<header class="top" id="top">
+  <div class="top-in">
+    <a class="logo" href="#top" aria-label="Auto-Fest, strona główna"><img src="img/logo.svg" alt="AUTOFEST wynajem samochodów" width="602" height="186"></a>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#flota">Flota i ceny</a>
+      <a href="#lotnisko">Lotnisko</a>
+      <a href="#warunki">Warunki</a>
+      <a href="#faq">Pytania</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="menu-tel" href="tel:+48515660082">515 660 082</a>
+    </nav>
+    <a class="tel-plate" href="tel:+48515660082" aria-label="Zadzwoń: 515 660 082">
+      <span class="tp-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg></span>
+      <span class="tp-num">515 660 082</span>
+    </a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Otwórz menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+  <div class="hero-txt">
+    <div class="hero-left">
+      <h1 id="h1">Auto czeka na Ciebie. O&nbsp;każdej porze dnia i&nbsp;nocy.</h1>
+      <p class="lead">Wynajem samochodów osobowych, dostawczych i busów w Gdyni, Gdańsku i na lotnisku im. Lecha Wałęsy. Wystarczy dowód osobisty i prawo jazdy.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#rezerwacja"><span>Zarezerwuj auto</span><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></svg></i></a>
+        <a class="hero-tel" href="tel:+48586293030">lub zadzwoń: <b>58 629 30 30</b></a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <p class="punkty-t">Nasze punkty, czynne całą dobę</p>
+      <ul class="punkty">
+        <li><b>Gdynia</b><span>ul. Wielkopolska 180</span></li>
+        <li><b>Gdańsk</b><span>ul. Nike 8</span></li>
+        <li><b>Lotnisko</b><span>parking przy terminalu, Gdańsk</span></li>
+      </ul>
+    </div>
+  </div>
+  <figure class="hero-foto">
+    <picture>
+      <source media="(max-width: 860px)" srcset="img/hero-flota-m.webp" width="896" height="565">
+      <img src="img/hero-flota.webp" width="1647" height="470" alt="Auta z floty Auto-Fest: Ford Fiesta, Ford Transit 9-osobowy i Fiat Ducato" fetchpriority="high">
+    </picture>
+  </figure>
+  <ul class="facts" aria-label="Najważniejsze">
+    <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Całą dobę, 7&nbsp;dni w&nbsp;tygodniu</span></li>
+    <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18M4 4l16 16"/></svg><span>Bez karty kredytowej</span></li>
+    <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Fotelik i GPS bez dopłat</span></li>
+  </ul>
+</section>
+
+<section class="sec flota" id="flota" aria-labelledby="h-flota">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="h-flota">Flota i ceny</h2>
+      <p>Im dłużej jedziesz, tym mniej płacisz za dobę. Przy wynajmie powyżej 7 dób cenę ustalamy indywidualnie.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Rodzaj auta">
+      <button role="tab" id="t-os" aria-controls="p-os" aria-selected="true">Osobowe <small>4</small></button>
+      <button role="tab" id="t-dost" aria-controls="p-dost" aria-selected="false" tabindex="-1">Dostawcze <small>7</small></button>
+      <button role="tab" id="t-bus" aria-controls="p-bus" aria-selected="false" tabindex="-1">Busy <small>2</small></button>
+    </div>
+    <div class="panel" role="tabpanel" id="p-os" aria-labelledby="t-os">
+      <div class="rail" data-rail>
+<article class="car" aria-roledescription="karta" aria-label="Ford Fiesta, 1 z 4">
+  <div class="car-img"><img src="img/auto-fiesta.webp" width="720" height="450" alt="Ford Fiesta" loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Ford Fiesta</h3><p class="car-sub">hatchback, segment B</p>
+    <ul class="car-spec"><li>4/5 drzwi</li><li>4/5 miejsc</li><li>klimatyzacja</li></ul>
+    <div class="price"><span class="pr-od">od <b>80 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>1 doba</dt><dd>120 zł</dd></div><div><dt>3 doby</dt><dd>90 zł</dd></div><div><dt>7 dób</dt><dd>80 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Ford Fiesta">Zarezerwuj to auto</button>
+  </div>
+</article>
+<article class="car" aria-roledescription="karta" aria-label="Suzuki Splash, 2 z 4">
+  <div class="car-img"><img src="img/auto-splash.webp" width="720" height="450" alt="Suzuki Splash" loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Suzuki Splash</h3><p class="car-sub">hatchback, segment B</p>
+    <ul class="car-spec"><li>4/5 drzwi</li><li>4/5 miejsc</li><li>klimatyzacja</li></ul>
+    <div class="price"><span class="pr-od">od <b>80 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>1 doba</dt><dd>120 zł</dd></div><div><dt>3 doby</dt><dd>90 zł</dd></div><div><dt>7 dób</dt><dd>80 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Suzuki Splash">Zarezerwuj to auto</button>
+  </div>
+</article>
+<article class="car" aria-roledescription="karta" aria-label="Ford Focus, 3 z 4">
+  <div class="car-img"><img src="img/auto-focus.webp" width="720" height="450" alt="Ford Focus" loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Ford Focus</h3><p class="car-sub">kombi, segment C</p>
+    <ul class="car-spec"><li>4/5 drzwi</li><li>5 miejsc</li><li>klimatyzacja</li></ul>
+    <div class="price"><span class="pr-od">od <b>100 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>1 doba</dt><dd>150 zł</dd></div><div><dt>3 doby</dt><dd>120 zł</dd></div><div><dt>7 dób</dt><dd>100 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Ford Focus">Zarezerwuj to auto</button>
+  </div>
+</article>
+<article class="car" aria-roledescription="karta" aria-label="Opel Astra, 4 z 4">
+  <div class="car-img"><img src="img/auto-astra.webp" width="720" height="450" alt="Opel Astra" loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Opel Astra</h3><p class="car-sub">hatchback, segment C</p>
+    <ul class="car-spec"><li>4/5 drzwi</li><li>5 miejsc</li><li>klimatyzacja</li></ul>
+    <div class="price"><span class="pr-od">od <b>100 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>1 doba</dt><dd>150 zł</dd></div><div><dt>3 doby</dt><dd>120 zł</dd></div><div><dt>7 dób</dt><dd>100 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Opel Astra">Zarezerwuj to auto</button>
+  </div>
+</article></div>
+      <div class="rail-nav"><button class="rn prev" aria-label="Poprzednie auto">&#8592;</button><span class="rn-count" aria-live="polite"></span><button class="rn next" aria-label="Następne auto">&#8594;</button></div>
+    </div>
+    <div class="panel" role="tabpanel" id="p-dost" aria-labelledby="t-dost" hidden>
+      <div class="rail" data-rail>
+<article class="car" aria-roledescription="karta" aria-label="Ford Transit L1, 1 z 7">
+  <div class="car-img"><img src="img/auto-transit-l1.webp" width="720" height="450" alt="Ford Transit L1" loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Ford Transit L1</h3><p class="car-sub">6,3 m³, paka dł. 2,5 m, wys. 1,5 m</p>
+    <ul class="car-spec"><li>3 miejsca</li><li>klimatyzacja</li></ul>
+    <div class="price"><span class="pr-od">od <b>150 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>4 godziny</dt><dd>100 zł</dd></div><div><dt>1 doba</dt><dd>180 zł</dd></div><div><dt>3 doby</dt><dd>170 zł</dd></div><div><dt>7 dób</dt><dd>150 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Ford Transit L1">Zarezerwuj to auto</button>
+  </div>
+</article>
+<article class="car" aria-roledescription="karta" aria-label="Ford Transit L2, 2 z 7">
+  <div class="car-img"><img src="img/auto-transit-l2.webp" width="720" height="450" alt="Ford Transit L2" loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Ford Transit L2</h3><p class="car-sub">8,7 m³, paka dł. 2,8 m, wys. 1,8 m</p>
+    <ul class="car-spec"><li>3 miejsca</li></ul>
+    <div class="price"><span class="pr-od">od <b>170 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>4 godziny</dt><dd>130 zł</dd></div><div><dt>1 doba</dt><dd>230 zł</dd></div><div><dt>3 doby</dt><dd>210 zł</dd></div><div><dt>7 dób</dt><dd>170 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Ford Transit L2">Zarezerwuj to auto</button>
+  </div>
+</article>
+<article class="car" aria-roledescription="karta" aria-label="Citroen Jumper L1, 3 z 7">
+  <div class="car-img"><img src="img/auto-jumper.webp" width="720" height="450" alt="Citroen Jumper L1" loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Citroen Jumper L1</h3><p class="car-sub">7,1 m³, paka dł. 2,6 m, wys. 1,6 m</p>
+    <ul class="car-spec"><li>3 miejsca</li><li>klimatyzacja</li></ul>
+    <div class="price"><span class="pr-od">od <b>160 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>4 godziny</dt><dd>120 zł</dd></div><div><dt>1 doba</dt><dd>200 zł</dd></div><div><dt>3 doby</dt><dd>190 zł</dd></div><div><dt>7 dób</dt><dd>160 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Citroen Jumper L1">Zarezerwuj to auto</button>
+  </div>
+</article>
+<article class="car" aria-roledescription="karta" aria-label="Fiat Ducato L3, 4 z 7">
+  <div class="car-img"><img src="img/auto-ducato-l3.webp" width="720" height="450" alt="Fiat Ducato L3" loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Fiat Ducato L3</h3><p class="car-sub">13 m³, paka dł. 3,7 m, wys. 1,9 m</p>
+    <ul class="car-spec"><li>3 miejsca</li><li>klimatyzacja</li></ul>
+    <div class="price"><span class="pr-od">od <b>190 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>4 godziny</dt><dd>140 zł</dd></div><div><dt>1 doba</dt><dd>260 zł</dd></div><div><dt>3 doby</dt><dd>230 zł</dd></div><div><dt>7 dób</dt><dd>190 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Fiat Ducato L3">Zarezerwuj to auto</button>
+  </div>
+</article>
+<article class="car" aria-roledescription="karta" aria-label="Fiat Ducato L4, 5 z 7">
+  <div class="car-img"><img src="img/auto-ducato-l4.webp" width="720" height="450" alt="Fiat Ducato L4" loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Fiat Ducato L4</h3><p class="car-sub">15 m³, paka dł. 4,1 m, wys. 1,9 m</p>
+    <ul class="car-spec"><li>3 miejsca</li><li>klimatyzacja</li></ul>
+    <div class="price"><span class="pr-od">od <b>190 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>4 godziny</dt><dd>150 zł</dd></div><div><dt>1 doba</dt><dd>290 zł</dd></div><div><dt>3 doby</dt><dd>250 zł</dd></div><div><dt>7 dób</dt><dd>190 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Fiat Ducato L4">Zarezerwuj to auto</button>
+  </div>
+</article>
+<article class="car" aria-roledescription="karta" aria-label="Fiat chłodnia, 6 z 7">
+  <div class="car-img"><img src="img/auto-chlodnia.webp" width="720" height="450" alt="Fiat chłodnia" loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Fiat chłodnia</h3><p class="car-sub">10 m³, paka dł. 3,4 m, wys. 1,8 m</p>
+    <ul class="car-spec"><li>3 miejsca</li><li>klimatyzacja</li></ul>
+    <div class="price"><span class="pr-od">od <b>250 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>4 godziny</dt><dd>170 zł</dd></div><div><dt>1 doba</dt><dd>320 zł</dd></div><div><dt>3 doby</dt><dd>300 zł</dd></div><div><dt>7 dób</dt><dd>250 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Fiat chłodnia">Zarezerwuj to auto</button>
+  </div>
+</article>
+<article class="car" aria-roledescription="karta" aria-label="Ford Transit 6 os., 7 z 7">
+  <div class="car-img"><img src="img/auto-transit-6.webp" width="720" height="450" alt="Ford Transit 6 os." loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Ford Transit 6 os.</h3><p class="car-sub">brygadowy, 6,2 m³, paka dł. 2,0 m, wys. 1,8 m</p>
+    <ul class="car-spec"><li>6 miejsc</li></ul>
+    <div class="price"><span class="pr-od">od <b>130 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>4 godziny</dt><dd>110 zł</dd></div><div><dt>1 doba</dt><dd>160 zł</dd></div><div><dt>3 doby</dt><dd>150 zł</dd></div><div><dt>7 dób</dt><dd>130 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Ford Transit 6 os.">Zarezerwuj to auto</button>
+  </div>
+</article></div>
+      <div class="rail-nav"><button class="rn prev" aria-label="Poprzednie auto">&#8592;</button><span class="rn-count" aria-live="polite"></span><button class="rn next" aria-label="Następne auto">&#8594;</button></div>
+    </div>
+    <div class="panel" role="tabpanel" id="p-bus" aria-labelledby="t-bus" hidden>
+      <div class="rail" data-rail>
+<article class="car" aria-roledescription="karta" aria-label="Ford Transit 9 os., 1 z 2">
+  <div class="car-img"><img src="img/auto-transit-9.webp" width="720" height="450" alt="Ford Transit 9 os." loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Ford Transit 9 os.</h3><p class="car-sub">mikrobus na prawo jazdy kat. B</p>
+    <ul class="car-spec"><li>9 miejsc</li></ul>
+    <div class="price"><span class="pr-od">od <b>200 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>1 doba</dt><dd>240 zł</dd></div><div><dt>3 doby</dt><dd>220 zł</dd></div><div><dt>7 dób</dt><dd>200 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Ford Transit 9 os.">Zarezerwuj to auto</button>
+  </div>
+</article>
+<article class="car" aria-roledescription="karta" aria-label="Ford Transit 6 os., 2 z 2">
+  <div class="car-img"><img src="img/auto-transit-6.webp" width="720" height="450" alt="Ford Transit 6 os." loading="lazy" decoding="async" draggable="false"></div>
+  <div class="car-body">
+    <h3>Ford Transit 6 os.</h3><p class="car-sub">brygadowy, przestrzeń ładunkowa 2 x 1,8 m</p>
+    <ul class="car-spec"><li>6 miejsc</li></ul>
+    <div class="price"><span class="pr-od">od <b>130 zł</b></span><span class="pr-doba">doba</span></div>
+    <dl class="car-ceny"><div><dt>4 godziny</dt><dd>110 zł</dd></div><div><dt>1 doba</dt><dd>160 zł</dd></div><div><dt>3 doby</dt><dd>150 zł</dd></div><div><dt>7 dób</dt><dd>130 zł</dd></div></dl>
+    <button class="car-btn" type="button" data-auto="Ford Transit 6 os.">Zarezerwuj to auto</button>
+  </div>
+</article></div>
+      <div class="rail-nav"><button class="rn prev" aria-label="Poprzednie auto">&#8592;</button><span class="rn-count" aria-live="polite"></span><button class="rn next" aria-label="Następne auto">&#8594;</button></div>
+    </div>
+    <p class="note">Ceny brutto za dobę według cennika z autofest.pl (stan na 10.11.2026). Limit: 300 km na dobę dla aut osobowych i 500 km na dobę dla dostawczych.</p>
+  </div>
+</section>
+
+<section class="sec lotnisko" id="lotnisko" aria-labelledby="h-lot">
+  <div class="wrap lot-grid">
+    <div class="lot-txt">
+      <h2 id="h-lot">Wylądujesz, a auto już czeka pod terminalem</h2>
+      <p class="lot-lead">Filia Auto-Fest jest na parkingu tuż przy terminalu Portu Lotniczego im. Lecha Wałęsy w Gdańsku. Godzina przylotu nie ma znaczenia, działamy całą dobę.</p>
+      <ul class="ticks">
+        <li>Umowę podpisujesz w 5 minut, bez nadmiaru formalności.</li>
+        <li>Samochód przekazujemy bezpośrednio pod wyjściem z terminala.</li>
+        <li>Zwrot o dowolnej godzinie: na lotnisku albo w naszej siedzibie w Gdyni.</li>
+        <li>Nie wymagamy karty kredytowej.</li>
+      </ul>
+      <a class="btn btn-w" href="#rezerwacja" data-miejsce="Lotnisko Gdańsk"><span>Zarezerwuj na lotnisko</span><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></svg></i></a>
+    </div>
+    <div class="lot-plate">
+      <div class="lp-head"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 19h19M10.2 13.6 6 15.5l-2.2-2 2-.9-1.6-3.4 1.4-.6 3.2 2.6 4.6-2.1-4.3-5.4 2-.9 6.6 4.3 3.4-1.5c1-.4 2 0 2.4.9.4.9 0 1.9-.9 2.3z"/></svg><span>Port Lotniczy Gdańsk<br><b>im. Lecha Wałęsy</b></span></div>
+      <img src="img/auto-astra.webp" width="720" height="450" alt="Opel Astra z floty Auto-Fest" loading="lazy" decoding="async">
+      <dl class="lp-dl">
+        <div><dt>Obsługa na lotnisku</dt><dd>30 zł</dd></div>
+        <div><dt>Dostępne auta</dt><dd>osobowe, dostawcze, busy</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="sec warunki" id="warunki" aria-labelledby="h-war">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="h-war">Proste warunki, bez ukrytych opłat</h2>
+      <p>Płacisz za liczbę dób wynajmu. Kolejnych kierowców dopisujemy bez dopłat, a wynajem możesz przedłużyć w każdej chwili, wystarczy dać nam znać.</p>
+    </div>
+    <div class="war-grid">
+      <div class="war-col">
+        <h3>Co jest potrzebne</h3>
+        <ul class="ticks ticks-b">
+          <li>Ukończone 21 lat i co najmniej rok prawa jazdy.</li>
+          <li>Dwa dokumenty ze zdjęciem, np. dowód osobisty i prawo jazdy.</li>
+          <li>Rezerwacja telefonicznie albo przez formularz. Każdą rezerwację potwierdzamy telefonicznie.</li>
+        </ul>
+      </div>
+      <div class="war-col">
+        <h3>Warto wiedzieć</h3>
+        <ul class="ticks ticks-b">
+          <li>Należność za wynajem płatna z góry, przy wynajmie pobieramy kaucję ustalaną przy rezerwacji.</li>
+          <li>Fotelik dziecięcy i nawigacja GPS bez dodatkowych opłat.</li>
+          <li>Wynajem z OC sprawcy wypadku: wystawiamy fakturę dla ubezpieczyciela.</li>
+          <li>Wyjazd za granicę po uzgodnieniu z wypożyczalnią.</li>
+        </ul>
+      </div>
+      <aside class="promo" aria-label="Oferta weekendowa">
+        <div class="promo-plate"><span>Weekend</span><b>2,5 doby</b></div>
+        <p>Odbierz auto w piątek o 17:00 i zwróć w poniedziałek o 9:30. Taki wynajem liczymy jako 2,5 doby.</p>
+      </aside>
+      <div class="dez">
+        <img src="img/dezynfekcja.webp" width="520" height="352" alt="Środki do dezynfekcji używane w Auto-Fest" loading="lazy" decoding="async">
+        <div>
+          <h3>Dezynfekcja po każdym wynajmie</h3>
+          <p>Szczególną uwagę przykładamy do miejsc, których najczęściej dotykają kierowcy i pasażerowie.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec faq" id="faq" aria-labelledby="h-faq">
+  <div class="wrap faq-grid">
+    <div class="sec-head">
+      <h2 id="h-faq">Najczęstsze pytania</h2>
+      <p>Nie ma tu Twojego pytania? Zadzwoń: <a href="tel:+48515660082">515 660 082</a>.</p>
+    </div>
+    <div class="acc">
+      <details><summary>Kto może wynająć samochód?</summary><p>Każdy, kto skończył 21 lat i od co najmniej roku ma ważne prawo jazdy uprawniające do kierowania samochodem w Polsce.</p></details>
+      <details><summary>Jakie dokumenty są potrzebne?</summary><p>Dwa dokumenty ze zdjęciem, na przykład dowód osobisty i prawo jazdy.</p></details>
+      <details><summary>Czy potrzebna jest karta kredytowa?</summary><p>Nie. Płatności przyjmujemy gotówką.</p></details>
+      <details><summary>Czy autem może jeździć ktoś poza najemcą?</summary><p>Tak. Kolejnych kierowców dodajemy bez dopłat, wystarczy zgłosić to przy wynajmie.</p></details>
+      <details><summary>Gdzie odbiorę zarezerwowany samochód?</summary><p>W oddziale w Gdyni przy ul. Wielkopolskiej 180 albo na lotnisku w Gdańsku. Auto podstawimy też pod dworzec, hotel czy port, po wcześniejszym uzgodnieniu.</p></details>
+      <details><summary>Czy mogę przedłużyć wynajem?</summary><p>Tak. Klient, który użytkuje auto, ma do niego pierwszeństwo, więc wynajem można przedłużać bez ograniczeń. Wystarczy nas poinformować.</p></details>
+      <details><summary>Jakie są dodatkowe opłaty?</summary><p>Nie ma ukrytych opłat. Płacisz dobową stawkę razy liczbę dób. Jedyna dopłata dotyczy przekroczenia limitu: 300 km na dobę dla aut osobowych i 500 km na dobę dla dostawczych.</p></details>
+      <details><summary>Czy mogę wypożyczyć fotelik albo GPS?</summary><p>Tak, mamy nawigacje GPS i foteliki dziecięce w różnych kategoriach wagowych. Wypożyczamy je bez dodatkowych opłat.</p></details>
+      <details><summary>Czy jest możliwy wynajem z OC sprawcy wypadku?</summary><p>Tak. Wystawiamy fakturę za wynajem, z którą zgłaszasz się do ubezpieczyciela. Ubezpieczyciel pokrywa koszt wynajmu.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="sec rez" id="rezerwacja" aria-labelledby="h-rez">
+  <div class="wrap rez-grid">
+    <div class="rez-txt">
+      <h2 id="h-rez">Szybka rezerwacja</h2>
+      <p>Zostaw kilka informacji, a oddzwonimy i potwierdzimy rezerwację. Telefon zwrotny jest gwarancją, że auto będzie na Ciebie czekać.</p>
+      <a class="rez-tel" href="tel:+48515660082"><span>Wolisz od razu porozmawiać?</span><b>515 660 082</b></a>
+    </div>
+    <form class="form" id="form" novalidate>
+      <div class="f2">
+        <label>Imię i nazwisko<input name="imie" autocomplete="name" required></label>
+        <label>Telefon<input name="tel" type="tel" inputmode="tel" autocomplete="tel" required></label>
+      </div>
+      <label>Samochód
+        <select name="auto" id="f-auto">
+          <option value="">Dowolny, doradźcie mi</option>
+          <optgroup label="Osobowe"><option>Ford Fiesta</option><option>Suzuki Splash</option><option>Ford Focus</option><option>Opel Astra</option></optgroup><optgroup label="Dostawcze"><option>Ford Transit L1</option><option>Ford Transit L2</option><option>Citroen Jumper L1</option><option>Fiat Ducato L3</option><option>Fiat Ducato L4</option><option>Fiat chłodnia</option><option>Ford Transit 6 os.</option></optgroup><optgroup label="Busy"><option>Ford Transit 9 os.</option></optgroup>
+        </select>
+      </label>
+      <div class="f2">
+        <label>Miejsce odbioru
+          <select name="odbior" id="f-odbior"><option>Siedziba firmy, Gdynia</option><option>Lotnisko Gdańsk</option><option>Dworzec PKP Gdynia Główna</option><option>Inne miejsce, ustalimy telefonicznie</option></select>
+        </label>
+        <label>Odbiór<input name="od" type="datetime-local" required></label>
+      </div>
+      <div class="f2">
+        <label>Miejsce zwrotu
+          <select name="zwrot"><option>Siedziba firmy, Gdynia</option><option>Lotnisko Gdańsk</option><option>Dworzec PKP Gdynia Główna</option><option>Inne miejsce, ustalimy telefonicznie</option></select>
+        </label>
+        <label>Zwrot<input name="do" type="datetime-local" required></label>
+      </div>
+      <button class="btn btn-full" type="submit"><span>Wyślij rezerwację</span><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></svg></i></button>
+      <p class="form-msg" id="form-msg" role="status" hidden>To jest podgląd strony, formularz nie wysyła danych. Na gotowej stronie rezerwacja trafi od razu na autofest@wp.pl.</p>
+    </form>
+  </div>
+</section>
+
+<section class="sec kontakt" id="kontakt" aria-labelledby="h-kon">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="h-kon">Gdzie nas znajdziesz</h2>
+      <p>Wypożyczalnia działa od 1994 roku. Czynne całą dobę, 7 dni w tygodniu.</p>
+    </div>
+    <div class="kon-grid">
+      <article class="punkt">
+        <iframe title="Mapa: Auto-Fest Gdynia, ul. Wielkopolska 180" src="https://maps.google.com/maps?q=Auto-Fest%2C%20Wielkopolska%20180%2C%2081-534%20Gdynia&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="punkt-txt">
+          <div class="pk-plate"><b>Gdynia</b><span>siedziba</span></div>
+          <p>ul. Wielkopolska 180<br>81-534 Gdynia</p>
+        </div>
+      </article>
+      <article class="punkt">
+        <iframe title="Mapa: Auto-Fest Gdańsk, ul. Nike 8" src="https://maps.google.com/maps?q=Nike%208%2C%2080-392%20Gda%C5%84sk%2C%20Polska&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="punkt-txt">
+          <div class="pk-plate"><b>Gdańsk</b><span>oddział</span></div>
+          <p>ul. Nike 8<br>80-392 Gdańsk</p>
+        </div>
+      </article>
+      <div class="kon-dane">
+        <h3>Kontakt</h3>
+        <a class="kd-tel" href="tel:+48586293030">58 629 30 30</a>
+        <a class="kd-tel" href="tel:+48515660082">515 660 082</a>
+        <a class="kd-mail" href="mailto:autofest@wp.pl">autofest@wp.pl</a>
+        <p class="kd-lot">Filia na lotnisku: parking przy terminalu Portu Lotniczego im. Lecha Wałęsy w Gdańsku.</p>
+        <a class="kd-fb" href="https://www.facebook.com/autofestgdynia" rel="noopener" target="_blank">Auto-Fest na Facebooku</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <img src="img/logo-znak.svg" alt="AUTOFEST" width="602" height="116" loading="lazy">
+      <p>F.H.U. „AUTO-FEST” Iwona Szutenberg<br>ul. Olgierda 57, 81-534 Gdynia<br>NIP 586-100-99-91</p>
+    </div>
+    <nav class="foot-col" aria-label="Flota">
+      <h3>Flota</h3>
+      <a href="#flota" data-tab="t-os">Samochody osobowe</a>
+      <a href="#flota" data-tab="t-dost">Samochody dostawcze</a>
+      <a href="#flota" data-tab="t-bus">Mikrobusy</a>
+      <a href="#lotnisko">Wynajem na lotnisku</a>
+    </nav>
+    <nav class="foot-col" aria-label="Informacje">
+      <h3>Informacje</h3>
+      <a href="#warunki">Warunki wynajmu</a>
+      <a href="#warunki">Promocje</a>
+      <a href="#faq">Pytania i odpowiedzi</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="foot-col">
+      <h3>Całą dobę</h3>
+      <a href="tel:+48586293030">58 629 30 30</a>
+      <a href="tel:+48515660082">515 660 082</a>
+      <a href="mailto:autofest@wp.pl">autofest@wp.pl</a>
+    </div>
+  </div>
+  <div class="wrap foot-bot">
+    <span>&copy; 2026 Auto-Fest. Wszystkie prawa zastrzeżone.</span>
+    <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=autofest.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+</footer>
+
+<div class="mob" id="mob" aria-hidden="true">
+  <a class="mob-tel" href="tel:+48515660082" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>Zadzwoń</a>
+  <a class="mob-rez" href="#rezerwacja" tabindex="-1">Zarezerwuj auto</a>
+</div>
+
+<script src="app.js" defer></script>
+</body>
+</html>
